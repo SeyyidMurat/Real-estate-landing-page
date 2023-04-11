@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Web Development, HTML,CSS,JAVASCRİPT" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Web Development</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header_wrapper container-lg">
+				<div class="header_logo">
+					<img src="img/header-logo.png" alt="header-logo" />
+				</div>
+				<div class="header_nav">
+					<ul class="header_nav_inner">
+						<li><a href="#" class="header_nav_link-active">Home</a></li>
+						<li><a href="#">Residence</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Agents</a></li>
+					</ul>
+				</div>
+				<button class="header_nav-toggle-btn">
+					<span
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="feather feather-menu"
+						>
+							<line x1="3" y1="12" x2="21" y2="12"></line>
+							<line x1="3" y1="6" x2="21" y2="6"></line>
+							<line x1="3" y1="18" x2="21" y2="18"></line></svg
+					></span>
+				</button>
+				<div class="header_sign">
+					<button class="btn-black header_sign-btn">Sign Up</button>
+				</div>
+			</div>
+		</header>
+
+		<section class="hero-section">
+			<h1 class="hero-section-title">Find your dream home</h1>
+			<p class="hero-section-desc">
+				This is where you can find a dream <br />
+				home of your choice without stress
+			</p>
+			<div class="hero-section-form">
+				<h3 class="hero-section-form-title">Search the price you are looking for here</h3>
+				<div class="hero-section-form-wrapper">
+					<div class="hero-section-form-input">
+						<input type="text" id="location" placeholder="Location" />
+						<label for="location"
+							><svg
+								width="15.6"
+								height="19.5"
+								viewBox="0 0 18 22"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M9.20002 11.975C10.8155 11.975 12.125 10.6654 12.125 9.05C12.125 7.43457 10.8155 6.125 9.20002 6.125C7.58459 6.125 6.27502 7.43457 6.27502 9.05C6.27502 10.6654 7.58459 11.975 9.20002 11.975Z"
+									stroke="#989898"
+									stroke-width="1.75"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M9.20003 1.25C7.13134 1.25 5.14738 2.07178 3.68459 3.53457C2.22181 4.99735 1.40002 6.98131 1.40002 9.05C1.40002 10.8947 1.79197 12.1018 2.86252 13.4375L9.20003 20.75L15.5375 13.4375C16.6081 12.1018 17 10.8947 17 9.05C17 6.98131 16.1782 4.99735 14.7155 3.53457C13.2527 2.07178 11.2687 1.25 9.20003 1.25V1.25Z"
+									stroke="#989898"
+									stroke-width="1.75"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</label>
+					</div>
+					<div class="hero-section-form-input">
+						<input type="text" id="type" placeholder="Type" />
+						<label for="type">
+							<svg
+								width="18"
+								height="18"
+								viewBox="0 0 18 18"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M17.6293 8.86138L9.49211 0.730111C9.43352 0.671407 9.36393 0.624833 9.28732 0.593056C9.21071 0.561279 9.12858 0.544922 9.04564 0.544922C8.9627 0.544922 8.88057 0.561279 8.80396 0.593056C8.72735 0.624833 8.65776 0.671407 8.59917 0.730111L0.461975 8.86138C0.224912 9.09844 0.0905762 9.42045 0.0905762 9.75629C0.0905762 10.4537 0.657552 11.0206 1.35491 11.0206H2.21229V16.8228C2.21229 17.1724 2.49479 17.4549 2.84446 17.4549H7.7813V13.0297H9.99389V17.4549H15.2468C15.5965 17.4549 15.879 17.1724 15.879 16.8228V11.0206H16.7364C17.0722 11.0206 17.3942 10.8883 17.6313 10.6492C18.1232 10.1553 18.1232 9.35526 17.6293 8.86138Z"
+									fill="#989898"
+								/>
+							</svg>
+						</label>
+					</div>
+					<div class="hero-section-form-input">
+						<input type="text" id="price" placeholder="Price" />
+						<label for="price"
+							><svg
+								width="23"
+								height="24"
+								viewBox="0 0 23 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M11.5 1.21875C5.54587 1.21875 0.71875 6.04552 0.71875 12C0.71875 17.9545 5.54587 22.7812 11.5 22.7812C17.4541 22.7812 22.2812 17.9541 22.2812 12C22.2812 6.04552 17.4541 1.21875 11.5 1.21875ZM14.7175 16.5562C13.9811 17.1858 12.9411 17.5002 11.5967 17.5002C10.2239 17.5002 9.14358 17.1901 8.35727 16.5702C7.57059 15.9495 7.17744 15.0975 7.17744 14.0125H9.25714C9.3247 14.489 9.45731 14.8448 9.65425 15.0809C10.0158 15.5104 10.6343 15.7246 11.5108 15.7246C12.0358 15.7246 12.4617 15.6685 12.7891 15.5546C13.4108 15.3375 13.7213 14.9347 13.7213 14.3453C13.7213 14.0014 13.5689 13.7347 13.2649 13.5457C12.9601 13.3617 12.4775 13.1989 11.817 13.058L10.6882 12.8104C9.57842 12.5646 8.81619 12.2986 8.40147 12.0111C7.69817 11.5299 7.34706 10.7778 7.34706 9.75427C7.34706 8.82025 7.69098 8.04472 8.37811 7.42695C9.06523 6.80883 10.0754 6.50012 11.4076 6.50012C12.5203 6.50012 13.4683 6.79122 14.2546 7.37377C15.0395 7.95631 15.4513 8.80192 15.4901 9.91023H13.3957C13.3573 9.28312 13.0769 8.8375 12.5548 8.573C12.2065 8.3987 11.7735 8.31102 11.2563 8.31102C10.6806 8.31102 10.2217 8.42422 9.8785 8.65063C9.5353 8.87703 9.36316 9.19292 9.36316 9.59866C9.36316 9.97133 9.53242 10.2495 9.87131 10.4331C10.0884 10.556 10.5502 10.6998 11.2567 10.8647L13.0866 11.2963C13.888 11.4847 14.4896 11.7373 14.89 12.0528C15.5113 12.5434 15.8222 13.2535 15.8222 14.1821C15.8222 15.1348 15.4546 15.9265 14.7175 16.5562Z"
+									fill="#989898"
+								/>
+							</svg>
+						</label>
+					</div>
+					<button class="btn-black btn-md">Search Now</button>
+				</div>
+			</div>
+		</section>
+		<section class="popular-section">
+			<ul class="popular-section-rating">
+				<li class="popular-section-rating-item">
+					<div>2100+</div>
+					<div>Premium Houses</div>
+				</li>
+				<li class="popular-section-rating-item">
+					<div>2000+</div>
+					<div>Happy Customers</div>
+				</li>
+				<li class="popular-section-rating-item">
+					<div>50+</div>
+					<div>Awards</div>
+				</li>
+			</ul>
+			<div class="container">
+				<div class="popular-section-cards">
+					<p class="popular-section-cards-subtitle">Popular</p>
+					<div class="popular-section-cards-title">
+						<h2 class="heading-2">Our popular residence</h2>
+						<a href="#" class="btn-arrow">
+							Explore All
+							<span
+								><svg
+									width="30"
+									height="15"
+									viewBox="0 0 30 15"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M1 7.15489H18.5H29M29 7.15489L18.5 1M29 7.15489L18.5 14"
+										stroke="black"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</span>
+						</a>
+					</div>
+					<div class="popular-section-cards-grid" style="--gap: 82px">
+						<div class="popular-section-card">
+							<div>
+								<img
+									src="img/unsplash_042Srn0-82o.png"
+									alt="popular-img"
+									class="popular-section-card-img"
+								/>
+							</div>
+							<div class="popular-section-card-desc">
+								<div class="popular-section-card-desc-title">
+									<svg
+										width="10.8"
+										height="13.5"
+										viewBox="0 0 18 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M9.20002 11.975C10.8155 11.975 12.125 10.6654 12.125 9.05C12.125 7.43457 10.8155 6.125 9.20002 6.125C7.58459 6.125 6.27502 7.43457 6.27502 9.05C6.27502 10.6654 7.58459 11.975 9.20002 11.975Z"
+											stroke="#989898"
+											stroke-width="1.75"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M9.20003 1.25C7.13134 1.25 5.14738 2.07178 3.68459 3.53457C2.22181 4.99735 1.40002 6.98131 1.40002 9.05C1.40002 10.8947 1.79197 12.1018 2.86252 13.4375L9.20003 20.75L15.5375 13.4375C16.6081 12.1018 17 10.8947 17 9.05C17 6.98131 16.1782 4.99735 14.7155 3.53457C13.2527 2.07178 11.2687 1.25 9.20003 1.25V1.25Z"
+											stroke="#989898"
+											stroke-width="1.75"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									Agoda, surulere lagos
+								</div>
+								<div class="popular-section-card-desc-info">
+									<div class="popular-section-card-desc-info-col">
+										<span
+											><svg
+												width="14"
+												height="12"
+												viewBox="0 0 14 12"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M12.5536 5.10679V3.07143C12.5536 1.86339 11.6616 0.875 10.5714 0.875H7.92857C7.41982 0.875 6.95732 1.09464 6.60714 1.44607C6.25696 1.09464 5.79446 0.875 5.28571 0.875H2.64286C1.55268 0.875 0.660714 1.86339 0.660714 3.07143V5.10679C0.257679 5.50946 0 6.08786 0 6.73214V10.3929C0 10.7955 0.297321 11.125 0.660714 11.125C1.02411 11.125 1.32143 10.7955 1.32143 10.3929V9.66071H11.8929V10.3929C11.8929 10.7955 12.1902 11.125 12.5536 11.125C12.917 11.125 13.2143 10.7955 13.2143 10.3929V6.73214C13.2143 6.08786 12.9566 5.50946 12.5536 5.10679ZM7.92857 2.33929H10.5714C10.9348 2.33929 11.2321 2.66875 11.2321 3.07143V4.53571H7.26786V3.07143C7.26786 2.66875 7.56518 2.33929 7.92857 2.33929ZM1.98214 3.07143C1.98214 2.66875 2.27946 2.33929 2.64286 2.33929H5.28571C5.64911 2.33929 5.94643 2.66875 5.94643 3.07143V4.53571H1.98214V3.07143ZM1.32143 8.19643V6.73214C1.32143 6.32946 1.61875 6 1.98214 6H11.2321C11.5955 6 11.8929 6.32946 11.8929 6.73214V8.19643H1.32143Z"
+													fill="#989898"
+												/>
+											</svg>
+										</span>
+										<span>4 Bed</span>
+									</div>
+									<div class="popular-section-card-desc-info-col">
+										<input
+											type="checkbox"
+											name="dimension"
+											id="dimension"
+											class="popular-section-card-desc-info-col-checkbox"
+										/>
+										<label for="dimension">10x10</label>
+									</div>
+									<div class="popular-section-card-desc-info-col">
+										<input
+											type="checkbox"
+											name="size"
+											id="size"
+											class="popular-section-card-desc-info-col-checkbox"
+										/>
+										<label for="dimension">2000m²</label>
+									</div>
+								</div>
+								<div class="popular-section-card-desc-price">
+									<a href="#" class="btn-black popular-section-card-btn">Buy Now</a>
+									<div>750,000.00$</div>
+								</div>
+							</div>
+						</div>
+						<div class="popular-section-card">
+							<div>
+								<img
+									src="img/unsplash_042Srn0-82o.png"
+									alt="popular-img"
+									class="popular-section-card-img"
+								/>
+							</div>
+							<div class="popular-section-card-desc">
+								<div class="popular-section-card-desc-title">
+									<svg
+										width="10.8"
+										height="13.5"
+										viewBox="0 0 18 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M9.20002 11.975C10.8155 11.975 12.125 10.6654 12.125 9.05C12.125 7.43457 10.8155 6.125 9.20002 6.125C7.58459 6.125 6.27502 7.43457 6.27502 9.05C6.27502 10.6654 7.58459 11.975 9.20002 11.975Z"
+											stroke="#989898"
+											stroke-width="1.75"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M9.20003 1.25C7.13134 1.25 5.14738 2.07178 3.68459 3.53457C2.22181 4.99735 1.40002 6.98131 1.40002 9.05C1.40002 10.8947 1.79197 12.1018 2.86252 13.4375L9.20003 20.75L15.5375 13.4375C16.6081 12.1018 17 10.8947 17 9.05C17 6.98131 16.1782 4.99735 14.7155 3.53457C13.2527 2.07178 11.2687 1.25 9.20003 1.25V1.25Z"
+											stroke="#989898"
+											stroke-width="1.75"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									Agoda, surulere lagos
+								</div>
+								<div class="popular-section-card-desc-info">
+									<div class="popular-section-card-desc-info-col">
+										<span
+											><svg
+												width="14"
+												height="12"
+												viewBox="0 0 14 12"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M12.5536 5.10679V3.07143C12.5536 1.86339 11.6616 0.875 10.5714 0.875H7.92857C7.41982 0.875 6.95732 1.09464 6.60714 1.44607C6.25696 1.09464 5.79446 0.875 5.28571 0.875H2.64286C1.55268 0.875 0.660714 1.86339 0.660714 3.07143V5.10679C0.257679 5.50946 0 6.08786 0 6.73214V10.3929C0 10.7955 0.297321 11.125 0.660714 11.125C1.02411 11.125 1.32143 10.7955 1.32143 10.3929V9.66071H11.8929V10.3929C11.8929 10.7955 12.1902 11.125 12.5536 11.125C12.917 11.125 13.2143 10.7955 13.2143 10.3929V6.73214C13.2143 6.08786 12.9566 5.50946 12.5536 5.10679ZM7.92857 2.33929H10.5714C10.9348 2.33929 11.2321 2.66875 11.2321 3.07143V4.53571H7.26786V3.07143C7.26786 2.66875 7.56518 2.33929 7.92857 2.33929ZM1.98214 3.07143C1.98214 2.66875 2.27946 2.33929 2.64286 2.33929H5.28571C5.64911 2.33929 5.94643 2.66875 5.94643 3.07143V4.53571H1.98214V3.07143ZM1.32143 8.19643V6.73214C1.32143 6.32946 1.61875 6 1.98214 6H11.2321C11.5955 6 11.8929 6.32946 11.8929 6.73214V8.19643H1.32143Z"
+													fill="#989898"
+												/>
+											</svg>
+										</span>
+										<span>4 Bed</span>
+									</div>
+									<div class="popular-section-card-desc-info-col">
+										<input
+											type="checkbox"
+											name="dimension"
+											id="dimension"
+											class="popular-section-card-desc-info-col-checkbox"
+										/>
+										<label for="dimension">10x10</label>
+									</div>
+									<div class="popular-section-card-desc-info-col">
+										<input
+											type="checkbox"
+											name="size"
+											id="size"
+											class="popular-section-card-desc-info-col-checkbox"
+										/>
+										<label for="dimension">2000m²</label>
+									</div>
+								</div>
+								<div class="popular-section-card-desc-price">
+									<a href="#" class="btn-black popular-section-card-btn">Buy Now</a>
+									<div>750,000.00$</div>
+								</div>
+							</div>
+						</div>
+						<div class="popular-section-card">
+							<div>
+								<img
+									src="img/unsplash_042Srn0-82o.png"
+									alt="popular-img"
+									class="popular-section-card-img"
+								/>
+							</div>
+							<div class="popular-section-card-desc">
+								<div class="popular-section-card-desc-title">
+									<svg
+										width="10.8"
+										height="13.5"
+										viewBox="0 0 18 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M9.20002 11.975C10.8155 11.975 12.125 10.6654 12.125 9.05C12.125 7.43457 10.8155 6.125 9.20002 6.125C7.58459 6.125 6.27502 7.43457 6.27502 9.05C6.27502 10.6654 7.58459 11.975 9.20002 11.975Z"
+											stroke="#989898"
+											stroke-width="1.75"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M9.20003 1.25C7.13134 1.25 5.14738 2.07178 3.68459 3.53457C2.22181 4.99735 1.40002 6.98131 1.40002 9.05C1.40002 10.8947 1.79197 12.1018 2.86252 13.4375L9.20003 20.75L15.5375 13.4375C16.6081 12.1018 17 10.8947 17 9.05C17 6.98131 16.1782 4.99735 14.7155 3.53457C13.2527 2.07178 11.2687 1.25 9.20003 1.25V1.25Z"
+											stroke="#989898"
+											stroke-width="1.75"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									Agoda, surulere lagos
+								</div>
+								<div class="popular-section-card-desc-info">
+									<div class="popular-section-card-desc-info-col">
+										<span
+											><svg
+												width="14"
+												height="12"
+												viewBox="0 0 14 12"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M12.5536 5.10679V3.07143C12.5536 1.86339 11.6616 0.875 10.5714 0.875H7.92857C7.41982 0.875 6.95732 1.09464 6.60714 1.44607C6.25696 1.09464 5.79446 0.875 5.28571 0.875H2.64286C1.55268 0.875 0.660714 1.86339 0.660714 3.07143V5.10679C0.257679 5.50946 0 6.08786 0 6.73214V10.3929C0 10.7955 0.297321 11.125 0.660714 11.125C1.02411 11.125 1.32143 10.7955 1.32143 10.3929V9.66071H11.8929V10.3929C11.8929 10.7955 12.1902 11.125 12.5536 11.125C12.917 11.125 13.2143 10.7955 13.2143 10.3929V6.73214C13.2143 6.08786 12.9566 5.50946 12.5536 5.10679ZM7.92857 2.33929H10.5714C10.9348 2.33929 11.2321 2.66875 11.2321 3.07143V4.53571H7.26786V3.07143C7.26786 2.66875 7.56518 2.33929 7.92857 2.33929ZM1.98214 3.07143C1.98214 2.66875 2.27946 2.33929 2.64286 2.33929H5.28571C5.64911 2.33929 5.94643 2.66875 5.94643 3.07143V4.53571H1.98214V3.07143ZM1.32143 8.19643V6.73214C1.32143 6.32946 1.61875 6 1.98214 6H11.2321C11.5955 6 11.8929 6.32946 11.8929 6.73214V8.19643H1.32143Z"
+													fill="#989898"
+												/>
+											</svg>
+										</span>
+										<span>4 Bed</span>
+									</div>
+									<div class="popular-section-card-desc-info-col">
+										<input
+											type="checkbox"
+											name="dimension"
+											id="dimension"
+											class="popular-section-card-desc-info-col-checkbox"
+										/>
+										<label for="dimension">10x10</label>
+									</div>
+									<div class="popular-section-card-desc-info-col">
+										<input
+											type="checkbox"
+											name="size"
+											id="size"
+											class="popular-section-card-desc-info-col-checkbox"
+										/>
+										<label for="dimension">2000m²</label>
+									</div>
+								</div>
+								<div class="popular-section-card-desc-price">
+									<a href="#" class="btn-black popular-section-card-btn">Buy Now</a>
+									<div>750,000.00$</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services_wrapper">
+				<div class="services_desc">
+					<h3 class="heading-2">Our Services</h3>
+					<p class="services_desc-paragraph">
+						This is where you can find a dream home of your choice without stThis is where you can find a
+						dream home of your choice without stressressyour
+					</p>
+					<a href="#" class="btn-white services-btn">See More</a>
+				</div>
+				<div class="services_carousel">
+					<div id="owl-demo-1" class="owl-carousel owl-theme">
+						<div class="services_carousel-item">
+							<img src="/img/coursel-img.png" alt="img-carousel" />
+							<p class="services_carousel-item-desc">Quality Residence</p>
+						</div>
+						<div class="services_carousel-item">
+							<img src="/img/coursel-img.png" alt="img-carousel" />
+							<p class="services_carousel-item-desc">Top notch Facilities</p>
+						</div>
+						<div class="services_carousel-item">
+							<img src="/img/coursel-img.png" alt="img-carousel" />
+							<p class="services_carousel-item-desc">Quality Residence</p>
+						</div>
+						<div class="services_carousel-item">
+							<img src="/img/coursel-img.png" alt="img-carousel" />
+							<p class="services_carousel-item-desc">Top notch Facilities</p>
+						</div>
+						<div class="services_carousel-item">
+							<img src="/img/coursel-img.png" alt="img-carousel" />
+							<p class="services_carousel-item-desc">Quality Residence</p>
+						</div>
+						<div class="services_carousel-nav">
+							<span class="carousel-btn prev text-white"
+								><svg
+									width="26"
+									height="26"
+									viewBox="0 0 26 26"
+									fill="#fff"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M24 12.3917H10.25H2M2 12.3917L10.25 1.54272M2 12.3917L10.25 24.4573"
+										stroke="white"
+										stroke-width="2.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</span>
+							<span class="carousel-btn btn-white next"
+								><svg
+									width="25"
+									height="20"
+									viewBox="0 0 25 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M2 9.57525H15.125H23M23 9.57525L15.125 2M23 9.57525L15.125 18"
+										stroke="black"
+										stroke-width="2.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="choose">
+			<div class="container">
+				<div class="choose_title">
+					<h3 class="heading-2">Why choose us</h3>
+					<p class="choose_title-sub">
+						Our goal is at the heart of all that we do. We make our clients happiness our sole priority.
+					</p>
+				</div>
+
+				<div class="choose_cards-grid" style="--gap: 40px">
+					<div class="choose_card">
+						<div class="choose_card-title">
+							<img src="img/insurance.png" alt="insurance-img" />
+							<h4>Insurance</h4>
+						</div>
+						<div class="chooser_card-desc">
+							This is where you can find a dream home of your choice without stThis is where you can find
+							a dream home of your choice without stressresThis is where you
+						</div>
+					</div>
+					<div class="choose_card">
+						<div class="choose_card-title">
+							<img src="img/insurance.png" alt="insurance-img" />
+							<h4>Insurance</h4>
+						</div>
+						<div class="chooser_card-desc">
+							This is where you can find a dream home of your choice without stThis is where you can find
+							a dream home of your choice without stressresThis is where you
+						</div>
+					</div>
+					<div class="choose_card">
+						<div class="choose_card-title">
+							<img src="img/insurance.png" alt="insurance-img" />
+							<h4>Insurance</h4>
+						</div>
+						<div class="chooser_card-desc">
+							This is where you can find a dream home of your choice without stThis is where you can find
+							a dream home of your choice without stressresThis is where you
+						</div>
+					</div>
+					<div class="choose_card">
+						<div class="choose_card-title">
+							<img src="img/insurance.png" alt="insurance-img" />
+							<h4>Insurance</h4>
+						</div>
+						<div class="chooser_card-desc">
+							This is where you can find a dream home of your choice without stThis is where you can find
+							a dream home of your choice without stressresThis is where you
+						</div>
+					</div>
+					<div class="choose_card">
+						<div class="choose_card-title">
+							<img src="img/insurance.png" alt="insurance-img" />
+							<h4>Insurance</h4>
+						</div>
+						<div class="chooser_card-desc">
+							This is where you can find a dream home of your choice without stThis is where you can find
+							a dream home of your choice without stressresThis is where you
+						</div>
+					</div>
+					<div class="choose_card">
+						<div class="choose_card-title">
+							<img src="img/insurance.png" alt="insurance-img" />
+							<h4>Insurance</h4>
+						</div>
+						<div class="chooser_card-desc">
+							This is where you can find a dream home of your choice without stThis is where you can find
+							a dream home of your choice without stressresThis is where you
+						</div>
+					</div>
+				</div>
+				<div class="choose_footer">
+					<a href="#" class="btn-arrow">
+						See All
+						<span
+							><svg
+								width="30"
+								height="15"
+								viewBox="0 0 30 15"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M1 7.15489H18.5H29M29 7.15489L18.5 1M29 7.15489L18.5 14"
+									stroke="black"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="team">
+			<div class="container">
+				<div class="team_title">
+					<p class="team_title-first">Our team</p>
+					<h3 class="heading-2">Meet our team</h3>
+					<p class="team_title-sub">
+						Our goal is at the heart of all that we do. We make our <br />
+						clients happiness our sole priority.
+					</p>
+				</div>
+				<div class="team_images">
+					<div class="team_images-item">
+						<div class="team_images-item-img">
+							<img src="img/Rectangle.png" alt="" />
+							<img src="img/team.png" alt="" class="team_images-item-second-img" />
+						</div>
+						<span class="team_images-item-desc">Project Manager</span>
+					</div>
+					<div class="team_images-item">
+						<div class="team_images-item-img">
+							<img src="img/Rectangle.png" alt="" />
+							<img src="img/team-2.png" alt="" class="team_images-item-second-img" />
+						</div>
+						<span class="team_images-item-desc">Marketing Head</span>
+					</div>
+					<div class="team_images-item">
+						<div class="team_images-item-img">
+							<img src="img/Rectangle.png" alt="" />
+							<img src="img/team-3.png" alt="" class="team_images-item-second-img" />
+						</div>
+						<span class="team_images-item-desc">Head of Services</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="testimonials">
+			<div class="testimonials_title">
+				<div class="testimonials_title-one">Testimonials</div>
+				<div class="heading-2 testimonials_title-two">What clients says</div>
+				<div class="testimonials_title-three">
+					Our goal is at the heart of all that we do. We make our clients happiness our sole priority.
+				</div>
+			</div>
+			<div class="testimonials_slider">
+				<div id="owl-demo-2" class="owl-carousel owl-theme">
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+					<div class="testimonials_card">
+						<div class="testimonials_card-info">
+							<div class="testimonials_card-avatar">
+								<img src="img/testimonial-img.png" alt="avatar-img" />
+							</div>
+							<div class="testimonials_card-info-name">
+								<h4>Kim Davids</h4>
+								<div>Banker</div>
+							</div>
+							<div class="testimonials_card-info-star">
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+								<svg
+									width="13"
+									height="13"
+									viewBox="0 0 13 13"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										fill="#F8D027"
+									/>
+									<path
+										d="M5.89838 0.411444C6.10638 -0.137148 6.89351 -0.137148 7.10216 0.411444L8.44764 4.13849C8.49458 4.2599 8.57724 4.36422 8.6847 4.43767C8.79216 4.51113 8.91937 4.55027 9.04953 4.54993H12.356C12.967 4.54993 13.2335 5.31042 12.7532 5.68286L10.4002 7.79988C10.2948 7.88091 10.2178 7.99324 10.1802 8.12076C10.1426 8.24827 10.1463 8.38442 10.1909 8.50967L11.0502 12.1516C11.2595 12.7366 10.5822 13.239 10.07 12.8789L6.87402 10.8509C6.76457 10.774 6.63405 10.7327 6.50027 10.7327C6.36649 10.7327 6.23598 10.774 6.12653 10.8509L2.93052 12.8789C2.41898 13.239 1.74104 12.7359 1.95034 12.1516L2.80963 8.50967C2.8542 8.38442 2.85796 8.24827 2.82036 8.12076C2.78275 7.99324 2.70573 7.88091 2.60033 7.79988L0.247364 5.68286C-0.233629 5.31042 0.0341666 4.54993 0.643858 4.54993H3.95036C4.08055 4.55036 4.2078 4.51126 4.31527 4.43779C4.42275 4.36432 4.50539 4.25995 4.55225 4.13849L5.89773 0.411444H5.89838Z"
+										stroke="#F8D027"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="testimonials_card-desc">
+							<p>
+								This is where you can find a dream home of your choice without stThis is where you can
+								find a dream home of your choice without stressresschoice without stThis is where you
+								can find
+							</p>
+						</div>
+					</div>
+
+					<div class="testimonials_slider-nav">
+						<span class="testimonials-btn prev-testi text-white"
+							><svg
+								width="26"
+								height="26"
+								viewBox="0 0 26 26"
+								fill="#fff"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M24 12.3917H10.25H2M2 12.3917L10.25 1.54272M2 12.3917L10.25 24.4573"
+									stroke="white"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</span>
+						<span class="testimonials-btn next-testi btn-white"
+							><svg
+								width="25"
+								height="20"
+								viewBox="0 0 25 20"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M2 9.57525H15.125H23M23 9.57525L15.125 2M23 9.57525L15.125 18"
+									stroke="black"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3 class="testimonials_choose">
+					Ready to choose your <br />
+					dream home?
+				</h3>
+				<button class="btn-white btn-lg">Get Started</button>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer_wrapper">
+					<div class="footer_left">
+						<div class="footer_left-logo">
+							<img src="img/footer-logo.png" alt="footer-logo" />
+						</div>
+						<p class="footer_left-text">Our goal is at the heart of all that we do.</p>
+						<div class="footer_left-social">
+							<a href="#"><img src="img/facebook.png" alt="" /></a>
+							<a href="#"><img src="img/twitter.png" alt="" /></a>
+							<a href="#"><img src="img/linkend.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="footer_links">
+						<ul class="footer_links-col">
+							<li>Page</li>
+							<li><a href="#">Homepage</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Agents</a></li>
+						</ul>
+						<ul class="footer_links-col">
+							<li>Support</li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Support Center</a></li>
+							<li><a href="#">Security</a></li>
+						</ul>
+						<ul class="footer_links-col">
+							<li>Contact Us</li>
+							<li><a href="#">+234-70-1449-8006</a></li>
+							<li><a href="#">homie@gmail.com</a></li>
+							<li><a href="#">23, Ali express way lagos, Nigeria</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer_copyright">
+				<p>2022 All Right Reserved</p>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
